@@ -34,7 +34,8 @@ This exercise accompanies the lessons in Environmental Data Analytics on Data Ex
 
 ```{r,  message = FALSE}
 
-getwd()
+tinytex::install_tinytex()
+setwd("C:/Undergrad/Grad_School/General/Jasmine/R_stuff")
 library(tidyverse)
 
 #load datasests
