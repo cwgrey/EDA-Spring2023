@@ -185,12 +185,13 @@ Two single ingredient recipes, baked at the same time:
 recipe2 <- function(x){
   mix1 <- x*2
   mix2 <- x/2
-  return(list(mix1 = mix1, #comma indicates we continue onto the next line
-              mix2 = mix2))
+  return(list(var1 = mix1, #comma indicates we continue onto the next line
+              var2 = mix2))
 }
 
 doublesimplemeal <- recipe2(6)
 doublesimplemeal
+doublesimplemeal $var2
 ```
 
 Two double ingredient recipes, baked at the same time:
